@@ -1,8 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.6.0)
-      public_suffix (>= 2.0.2, < 4.0)
+    addressable (2.8.0)
+      public_suffix (>= 2.0.2, < 5.0)
     bcp47 (0.3.3)
       i18n
     builder (3.2.3)
@@ -16,7 +16,9 @@ GEM
       http_parser.rb (~> 0.6.0)
     equivalent-xml (0.6.0)
       nokogiri (>= 1.4.3)
+    eventmachine (1.2.7)
     eventmachine (1.2.7-x86-mingw32)
+    ffi (1.11.1)
     ffi (1.11.1-x86-mingw32)
     forwardable-extended (2.6.0)
     haml (5.1.1)
@@ -98,11 +100,13 @@ GEM
     mini_portile2 (2.4.0)
     multi_json (1.13.1)
     net-http-persistent (2.9.4)
+    nokogiri (1.10.3)
+      mini_portile2 (~> 2.4.0)
     nokogiri (1.10.3-x86-mingw32)
       mini_portile2 (~> 2.4.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    public_suffix (3.1.0)
+    public_suffix (4.0.6)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
@@ -195,6 +199,7 @@ GEM
 
 PLATFORMS
   x86-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   jekyll-rdf (>= 3.1.1.a)
